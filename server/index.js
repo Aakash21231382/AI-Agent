@@ -11,17 +11,11 @@ import userRouter from "./routes/user.route.js"
 import interviewRouter from "./routes/interview.route.js"
 // import paymentRouter from "./routes/payment.route.js"
 const app = express()
-// app.use(cors({
-//   origin: true,
-//   credentials: true
-// }));
 app.use(cors({
-    origin: [
-        "http://localhost:5173", // local dev
-        "https://gentle-clafoutis-761f39.netlify.app" // deployed frontend
-    ],
-    credentials: true
+  origin: true,
+  credentials: true
 }));
+
 
 // app.get("/",(req,res)=>{
 //     return res.json({message:"Server Satrted"})
