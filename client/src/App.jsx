@@ -12,7 +12,8 @@ import InterviewHistory from "./pages/InterviewHistory";
 // import Pricing from "./pages/Pricing";
 import InterviewReport from "./pages/InterviewReport";
 
-export const ServerUrl = "http://localhost:8000";
+// export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://ai-agent-o0ki.onrender.com";
 // export const ServerUrl = "http://localhost:6000";
 const App = () => {
   const dispatch = useDispatch();
