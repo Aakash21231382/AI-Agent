@@ -10,11 +10,10 @@ import { setUserData } from "./redux/userSlice";
 import InterviewPage from "./pages/InterviewPage";
 import InterviewHistory from "./pages/InterviewHistory";
 // import Pricing from "./pages/Pricing";
+import Pricing from "./pages/Pricing";
 import InterviewReport from "./pages/InterviewReport";
 
-// export const ServerUrl = "http://localhost:8000";
-export const ServerUrl = "https://ai-agent-o0ki.onrender.com";
-// export const ServerUrl = "http://localhost:6000";
+export const ServerUrl = "";
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -39,6 +38,7 @@ const App = () => {
         <Route path="/interview" element={<InterviewPage/>}/>
         <Route path="/history" element={<InterviewHistory/>}/>
         {/* <Route path="/pricing" element={<Pricing/>}/> */}
+        <Route path="/pricing" element={<Pricing/>}/>
         <Route path="/report/:id" element={<InterviewReport/>}/>
       </Routes>
     </div>
