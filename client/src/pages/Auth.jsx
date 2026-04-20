@@ -74,7 +74,7 @@ const Auth = ({ isModel = false }) => {
         {/* Heading */}
         <div className="text-center mb-8">
           <h1 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-snug mb-3">
-            Ace your next interview
+      AI Interview 
           </h1>
           <p className="text-gray-500 text-sm md:text-base leading-relaxed">
             Practice with AI, get scored, and land the job.
